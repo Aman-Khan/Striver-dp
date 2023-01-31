@@ -1,6 +1,7 @@
-link : https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003
+// link : https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003
 
-TC
+// TC - O(N*3)*3
+// SC - (recusion stack space) O(N) + O(N*3)
 
 int maxMerit(int day, int last, vector<vector<int>>& points, vector<vector<int>>& dp){
     if(day==points.size()-1){
