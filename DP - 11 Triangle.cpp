@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/triangle
+
     int minPath(int x, int y, vector<vector<int>>& triangle, vector<vector<int>>& dp){
         if(x>=triangle.size()) return 1e8;
         if(y>=triangle[x].size()) return 1e8;
